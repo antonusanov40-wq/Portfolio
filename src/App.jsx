@@ -158,8 +158,6 @@ export default function App() {
                 sequence={[
                 'Cybersecurity Student',
                 2000,
-                'Frontend Enthusiast',
-                2000,
                 'Reserve Officer Training',
                 2000,
                 ]}
@@ -171,14 +169,13 @@ export default function App() {
             </h1>
 
             <p className="text-slate-300 mt-6 text-lg leading-relaxed">
-              Cybersecurity student at Lviv Polytechnic National University
-              with practical experience in frontend development and backend technologies.
+              Студент факультету захисту інформації Національного університету "Львівська політехніка",
+              маю практичний досвід у розробці інтерфейсів та бекенд-технологій.
 
-              I build responsive web applications using React, JavaScript and Tailwind CSS,
-              and continuously improve my skills in modern web development and cybersecurity.
+              Я створюю адаптивні веб-додатки з використанням React, JavaScript та Tailwind CSS,
+              а також постійно вдосконалюю свої навички в галузі сучасної веб-розробки та кібербезпеки.
 
-              Currently also undergoing reserve officer military training.
-              
+              Наразі також проходжу військову підготовку в якості офіцера запасу.
             </p>
             <div className="flex flex-wrap gap-4 mt-10">
 
@@ -244,7 +241,7 @@ export default function App() {
                 </h3>
 
                 <p className="text-slate-300 mt-4">
-                  Fastify backend with email sending integration.
+                   Працював з бекенд валідацією з використанням API key
                 </p>
                 </motion.div>
 
@@ -284,6 +281,10 @@ export default function App() {
 
     <div className="bg-slate-700 px-6 py-3 rounded-2xl hover:bg-cyan-400 hover:text-black hover:scale-105 transition duration-300 cursor-default">
       REST API
+    </div>
+
+    <div className="bg-slate-700 px-6 py-3 rounded-2xl hover:bg-cyan-400 hover:text-black hover:scale-105 transition duration-300 cursor-default">
+      Python
     </div>
 
   </div>
