@@ -136,6 +136,38 @@ export default function App() {
 
           </div>
 
+          <div className="mt-10">
+
+  <h3 className="text-xl font-bold text-cyan-400 mb-4">
+    Soft Skills
+  </h3>
+
+  <div className="space-y-3 text-slate-300">
+
+    <div className="bg-slate-700 px-4 py-2 rounded-xl">
+      Уважність до деталей
+    </div>
+
+    <div className="bg-slate-700 px-4 py-2 rounded-xl">
+      Аналітичне мислення
+    </div>
+
+    <div className="bg-slate-700 px-4 py-2 rounded-xl">
+      Вміння швидко навчатись
+    </div>
+
+    <div className="bg-slate-700 px-4 py-2 rounded-xl">
+      Комунікабельність
+    </div>
+
+    <div className="bg-slate-700 px-4 py-2 rounded-xl">
+      Робота в команді
+    </div>
+
+  </div>
+
+</div>
+
         </motion.div>
 
 
@@ -214,7 +246,7 @@ export default function App() {
                 </h3>
 
                 <p className="text-slate-300 mt-4">
-                  Personal portfolio built with React and Tailwind CSS.
+                  Особисте портфоліо, створене на React та Tailwind CSS.
                 </p>
                 <div className="flex gap-3 mt-6">
 
@@ -241,7 +273,7 @@ export default function App() {
                 </h3>
 
                 <p className="text-slate-300 mt-4">
-                   Працював з бекенд валідацією з використанням API key
+                   Працював з бекенд валідацією з використанням API key та фронтенд валідацією з використанням formspree.
                 </p>
                 </motion.div>
 
@@ -249,9 +281,14 @@ export default function App() {
 
                 <div className="mt-16">
 
-  <h2 className="text-3xl font-bold text-cyan-400 mb-8">
+  <div className="flex justify-between items-center mb-8">
+
+  <h2 className="text-3xl font-bold text-cyan-400">
     Technologies
   </h2>
+
+  
+  </div>
 
   <div className="flex flex-wrap gap-4">
 
@@ -288,6 +325,18 @@ export default function App() {
     </div>
 
   </div>
+
+  <div className="mt-8">
+
+  <a
+    href="https://lab-5-theta.vercel.app/"
+    target="_blank"
+    className="bg-cyan-400 text-black px-8 py-4 rounded-2xl font-semibold hover:scale-105 hover:shadow-cyan-400/40 hover:shadow-xl transition duration-300"
+  >
+    Form Validation Project →
+  </a>
+
+</div>
 
 </div>
 
